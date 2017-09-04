@@ -7,7 +7,7 @@
 		}
     },
     "extra": {
-        "class": "Smichaelsen\\SaladBowlComposerInstaller\\PluginInstaller"
+        "class": "Smichaelsen\\SaladBowlComposerInstaller\\ComposerPluginInstaller"
     },
     "require": {
         "composer-plugin-api": "^1.0"
