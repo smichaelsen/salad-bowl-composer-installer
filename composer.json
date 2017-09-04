@@ -2,7 +2,9 @@
     "name": "smichaelsen/salad-bowl-composer-installer",
     "type": "composer-plugin",
     "autoload": {
-        "psr-0": {"Smichaelsen\\SaladBowlComposerInstaller": "./Classes/"}
+		"psr-4": {
+			"Smichaelsen\\SaladBowlComposerInstaller\\": "./Classes/"
+		}
     },
     "extra": {
         "class": "Smichaelsen\\SaladBowlComposerInstaller\\PluginInstaller"
