@@ -1,0 +1,13 @@
+{
+    "name": "smichaelsen/salad-bowl-composer-installer",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-0": {"Smichaelsen\\SaladBowlComposerInstaller": "./Classes/"}
+    },
+    "extra": {
+        "class": "Smichaelsen\\SaladBowlComposerInstaller\\PluginInstaller"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    }
+}
